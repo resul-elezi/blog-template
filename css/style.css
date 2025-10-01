@@ -147,6 +147,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border: 1px solid blue;
 }
 .menu-div {
@@ -159,6 +160,7 @@ nav {
   width: 20%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 /* ==========================================================================
