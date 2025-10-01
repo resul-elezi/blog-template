@@ -98,11 +98,11 @@ html[data-theme=light] {
 html[data-theme=dark] {
   --primary: #4b6bfb;
   --primary-content: #fff;
-  --neutral: #181a2a;
-  --neutral-content: #e8e8ea;
-  --base-100: #fff;
-  --base-200: #f6f6f7;
-  --base-300: #e8e8ea;
+  --neutral: #fff;
+  --neutral-content: #242535;
+  --base-100: #181a2a;
+  --base-200: #141624;
+  --base-300: #242535;
   --base-content: #97989f;
 }
 
