@@ -148,6 +148,12 @@ nav {
   justify-content: space-between;
   border: 1px solid blue;
 }
+.menu-div {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
 
 /* ==========================================================================
    Helper classes
