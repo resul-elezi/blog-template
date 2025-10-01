@@ -219,6 +219,7 @@ nav a {
   font-family: "Work Sans", sans-serif;
   font-weight: var(--medium);
   font-size: .875rem;
+  margin: 0;
   padding: .25rem .625rem;
   width: fit-content;
   background: var(--primary);
@@ -229,16 +230,21 @@ nav a {
   font-family: "Work Sans", sans-serif;
   font-weight: var(--semi-bold);
   line-height: 2.5rem;
+  margin-block: 1rem 1.5rem;
 }
 .author-date-div {
   font-family: "Work Sans", sans-serif;
   font-weight: var(--medium);
   font-size: 1rem;
   color: var(--secondary-400);
+  height: fit-content;
   display: flex;
   justify-content: space-between;
   width: 62%;
   gap: 1.25rem;
+}
+.author-date-div p {
+  margin: 0;
 }
 .author-div {
   display: flex;
