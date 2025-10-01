@@ -206,7 +206,9 @@ nav a {
 .hero-card {
   max-width: 37.375rem;
   background: var(--base-100);
+  padding: 2.5rem;
   border: 1px solid var(--secondary-100);
+  border-radius: .75rem;
 }
 /* ==========================================================================
    Helper classes
