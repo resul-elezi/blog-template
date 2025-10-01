@@ -197,7 +197,8 @@ nav a {
   color: var(--secondary-400);
 }
 .search-icon {
-  padding-right: .625rem;
+  /* padding-right: .625rem; */
+  padding-right: 1rem;
 }
 .hero img {
   border-radius: .75rem;
