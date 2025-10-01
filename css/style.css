@@ -154,6 +154,11 @@ nav {
   justify-content: center;
   gap: 2.5rem;
 }
+.search-theme-div {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
 
 /* ==========================================================================
    Helper classes
