@@ -203,7 +203,11 @@ nav a {
 .hero img {
   border-radius: .75rem;
 }
-
+.hero-card {
+  max-width: 37.375rem;
+  background: var(--base-100);
+  border: 1px solid var(--secondary-100);
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
