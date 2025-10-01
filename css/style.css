@@ -106,6 +106,9 @@ html[data-theme=dark] {
   --base-content: #97989f;
 }
 
+body {
+  max-width: 76rem;
+}
 
 /* ==========================================================================
    Helper classes
