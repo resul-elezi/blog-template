@@ -116,6 +116,7 @@ textarea {
   font-style: normal;
 } */
 :root {
+  --secondary-100: #f4f4f5;
   --secondary-600: #3b3c4a;
 }
 :root,
@@ -173,6 +174,16 @@ nav a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.search-div {
+  display: flex;
+  justify-content: center;
+  /* padding: .625rem; */
+  background: var(--secondary-100);
+}
+.search {
+  border: none;
+  background: var(--secondary-100);
 }
 
 /* ==========================================================================
