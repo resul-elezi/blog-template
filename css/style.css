@@ -199,6 +199,18 @@ nav a {
 .search-icon {
   padding-right: .625rem;
 }
+.hero {
+  display: block;
+  width: 76rem;
+  height: 664px;
+  border-radius: .75rem;
+  background-image: url("https://picsum.photos/seed/picsum/1216/600");
+  background-repeat: no-repeat;
+        /* Optional: control image size */
+  /* background-size: cover; */
+        /* Optional: control image position */
+  /* background-position: center; */
+}
 
 /* ==========================================================================
    Helper classes
