@@ -142,6 +142,7 @@ body {
   max-width: 76rem;
   margin: 0 auto;
   border: 1px solid red;
+  background: var(--base-100);
 }
 nav {
   display: flex;
