@@ -115,7 +115,9 @@ textarea {
   font-weight: 400;
   font-style: normal;
 } */
-
+:root {
+  --secondary-600: #3b3c4a;
+}
 :root,
 html[data-theme=light] {
   --primary: #4b6bfb;
@@ -148,11 +150,17 @@ header {
   padding-bottom: 1.5rem;
 }
 nav {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
   padding-block: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: 1px solid blue;
+}
+nav a {
+  color: var(--secondary-600);
+  text-decoration: none;
 }
 .menu-div {
   width: 55%;
