@@ -205,10 +205,19 @@ nav a {
   /* padding-right: .625rem; */
   padding-right: 1rem;
 }
+.hero {
+  display: flex;
+  max-height: 41.5rem;
+  height: 100%;
+  position: relative;
+}
 .hero img {
   border-radius: .75rem;
 }
 .hero-card {
+  position: absolute;
+  bottom: -344px;
+  left: 4rem;
   max-width: 37.375rem;
   background: var(--base-100);
   padding: 2.5rem;
