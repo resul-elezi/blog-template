@@ -119,6 +119,7 @@ textarea {
   --secondary-100: #e8e8ea;
   --secondary-400: #97989f;
   --secondary-600: #3b3c4a;
+  --secondary-800: #181a2a;
 
   --regular: 400;
   --medium: 500;
@@ -244,6 +245,7 @@ nav a {
   font-weight: var(--semi-bold);
   line-height: 2.5rem;
   margin-block: 1rem 1.5rem;
+  color:var(--neutral);
 }
 .author-date-div {
   font-family: "Work Sans", sans-serif;
