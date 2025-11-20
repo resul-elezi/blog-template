@@ -274,7 +274,7 @@ nav a {
 .author-div .avatar {
   max-width: 2.25rem;
   max-height: 2.25rem;
-  border-radius: 500%;
+  border-radius: 50%;
 }
 
 /* ==========================================================================
