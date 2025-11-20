@@ -191,11 +191,13 @@ nav a {
   align-items: center;
   padding: .125rem 0 .125rem .125rem;
   background: var(--secondary-100);
+  /* background: #a1a1aa; */
   border-radius: .3125rem;
 }
 .search {
   border: none;
   outline: none;
+  /* background: #a1a1aa; */
   background: var(--secondary-100);
   padding: .5rem .75rem .5rem 1rem;
   border-radius: .3125rem;
