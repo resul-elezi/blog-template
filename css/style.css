@@ -155,7 +155,7 @@ html[data-theme=dark] {
 body {
   max-width: 76rem;
   margin: 0 auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background: var(--base-100);
 }
 header {
@@ -168,7 +168,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 nav a {
   color: var(--secondary-600);
