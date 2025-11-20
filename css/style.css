@@ -223,8 +223,13 @@ nav a {
   background: var(--secondary-100);
   border-radius: 100px;
 }
-.theme-btn {
-  padding: .125rem;
+#theme-btn {
+  display: inline;
+  /* width: 1.5rem; */
+  height: auto;
+  margin: .125rem;
+  border-radius: 100%;
+  background: white;
 }
 .hero {
   display: flex;
