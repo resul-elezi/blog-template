@@ -216,7 +216,7 @@ nav a {
 }
 .hero-card {
   position: absolute;
-  bottom: -244px;
+  top: 350px;
   left: 4rem;
   max-width: 37.375rem;
   background: var(--base-100);
