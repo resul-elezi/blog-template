@@ -181,10 +181,11 @@ nav a {
   gap: 2.5rem;
 }
 .search-theme-div {
-  width: 21%;
+  /* width: 21%; */
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
+  gap: 2.5rem;
 }
 .search-div {
   display: flex;
@@ -197,9 +198,10 @@ nav a {
 .search {
   border: none;
   outline: none;
+  max-width: 8.625rem;
   /* background: #a1a1aa; */
   background: var(--secondary-100);
-  padding: .5rem .75rem .5rem 1rem;
+  padding: .5rem .5rem .5rem 1rem;
   border-radius: .3125rem;
 }
 .search::placeholder {
