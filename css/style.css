@@ -146,7 +146,11 @@ html[data-theme=dark] {
   --base-300: #242535;
   --base-content: #97989f;
 }
-
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   max-width: 76rem;
   margin: 0 auto;
