@@ -214,6 +214,18 @@ nav a {
   /* padding-right: .625rem; */
   margin-right: .625rem;
 }
+.theme-item {
+  display: flex;
+  justify-content: center;
+  width: 3rem;
+  /* height: 1.75rem; */
+  /* text-align: center; */
+  background: var(--secondary-100);
+  border-radius: 100px;
+}
+.theme-btn {
+  padding: .125rem;
+}
 .hero {
   display: flex;
   max-height: 41.5rem;
