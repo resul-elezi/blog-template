@@ -211,7 +211,6 @@ nav a {
   color: var(--secondary-400);
 }
 .search-icon {
-  /* padding-right: .625rem; */
   margin-right: .625rem;
 }
 .theme-item {
