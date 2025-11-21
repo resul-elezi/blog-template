@@ -199,7 +199,6 @@ nav a {
   border: none;
   outline: none;
   max-width: 8.625rem;
-  /* background: #a1a1aa; */
   background: var(--secondary-100);
   padding: .5rem .5rem .5rem 1rem;
   border-radius: .3125rem;
