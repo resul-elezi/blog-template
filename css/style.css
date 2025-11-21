@@ -181,9 +181,7 @@ nav a {
   gap: 2.5rem;
 }
 .search-theme-div {
-  /* width: 21%; */
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   gap: 2.5rem;
 }
