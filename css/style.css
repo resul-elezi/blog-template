@@ -168,7 +168,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid blue; */
 }
 nav a {
   color: var(--secondary-600);
