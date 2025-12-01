@@ -127,6 +127,8 @@ textarea {
   --bold: 700;
   --scale-x: 1;
 	--scale-y: 1;
+  --translate-x: 0;
+	--translate-y: 0;
 }
 :root,
 html[data-theme=light] {
