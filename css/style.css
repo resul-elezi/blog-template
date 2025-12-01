@@ -125,6 +125,8 @@ textarea {
   --medium: 500;
   --semi-bold: 600;
   --bold: 700;
+
+  --spacing: .25rem;
   --scale-x: 1;
 	--scale-y: 1;
   --translate-x: 0;
@@ -211,13 +213,13 @@ nav a {
 .search-icon {
   margin-right: .625rem;
 }
-.theme-item {
+/* .theme-item {
   display: flex;
   justify-content: center;
   width: 3rem;
   background: var(--secondary-100);
   border-radius: 100px;
-}
+} */
 /* .theme-toggle {
   display: inline;
   width: 1.5rem;
@@ -226,6 +228,50 @@ nav a {
   border-radius: 100%;
   background: white;
 } */
+
+.theme-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.theme-btn {
+	position: relative;
+	cursor: pointer;
+	width: calc(var(--spacing) * 12);
+	height: calc(var(--spacing) * 12);
+	/* padding: calc(var(--spacing) * 2); */
+}
+
+.theme-btn>svg {
+	transition: all .3s ease-in-out;
+}
+
+.moon-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	--translate-x: calc(50% * -1);
+	--translate-y: calc(50% * -1);
+	translate: var(--translate-x) var(--translate-y);
+	--scale-x: 100%;
+	--scale-y: 100%;
+	scale: var(--scale-x) var(--scale-y);
+	rotate: 0deg;
+}
+
+.sun-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	--translate-x: calc(50% * -1);
+	--translate-y: calc(50% * -1);
+	translate: var(--translate-x) var(--translate-y);
+	--scale-x: 0%;
+	--scale-y: 0%;
+	scale: var(--scale-x) var(--scale-y);
+	rotate: 90deg;
+}
 
 /* Sun Icon (sichtbar im Dark Mode) */
 [data-theme="dark"] .sun-icon {
@@ -256,32 +302,6 @@ nav a {
 	scale: var(--scale-x) var(--scale-y);
 	rotate: 0deg;
 }
-
-/* .moon-icon {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	--translate-x: calc(50% * -1);
-	--translate-y: calc(50% * -1);
-	translate: var(--translate-x) var(--translate-y);
-	--scale-x: 100%;
-	--scale-y: 100%;
-	scale: var(--scale-x) var(--scale-y);
-	rotate: 0deg;
-}
-
-.sun-icon {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	--translate-x: calc(50% * -1);
-	--translate-y: calc(50% * -1);
-	translate: var(--translate-x) var(--translate-y);
-	--scale-x: 0%;
-	--scale-y: 0%;
-	scale: var(--scale-x) var(--scale-y);
-	rotate: 90deg;
-} */
 
 .hero {
   display: flex;
