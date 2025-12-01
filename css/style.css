@@ -240,6 +240,7 @@ nav a {
 	cursor: pointer;
   border: none;
   border-radius: 50%;
+  background: white;
 	width: calc(var(--spacing) * 6);
 	height: calc(var(--spacing) * 6);
 	padding: calc(var(--spacing) * 2);
