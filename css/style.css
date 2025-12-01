@@ -239,9 +239,10 @@ nav a {
 	position: relative;
 	cursor: pointer;
   border: none;
+  border-radius: 50%;
 	width: calc(var(--spacing) * 6);
 	height: calc(var(--spacing) * 6);
-	/* padding: calc(var(--spacing) * 2); */
+	padding: calc(var(--spacing) * 2);
 }
 
 .theme-btn>svg {
